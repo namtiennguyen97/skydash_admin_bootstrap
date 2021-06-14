@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>TTC_Booking</title>
+    <!-- plugins:css -->
+    <link rel="stylesheet" href="vendors/feather/feather.css">
+    <link rel="stylesheet" href="vendors/ti-icons/css/themify-icons.css">
+    <link rel="stylesheet" href="vendors/css/vendor.bundle.base.css">
+    <!-- endinject -->
+    <!-- Plugin css for this page -->
+
+    <link rel="stylesheet" href="vendors/ti-icons/css/themify-icons.css">
+
+    <!-- End plugin css for this page -->
+    <!-- inject:css -->
+    <link rel="stylesheet" href="css/vertical-layout-light/style.css">
+    <!-- endinject -->
+    <link rel="shortcut icon" href="images/favicon.png" />
+</head>
+
+<body>
+    <div class="container-scroller">
+        <!-- Header -->
+        <nav class="navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row ">
+            <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center">
+                <a class="navbar-brand " href="index.html"><img src="images/Logo_TTC.svg" id="logo" /></a>
+
+            </div>
+            <div class="navbar-menu-wrapper d-flex align-items-center justify-content-end">
+
+                <button class="navbar-toggler navbar-toggler align-self-center" type="button" data-toggle="minimize">
+          <svg width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M6.17188 5.76953H14.6094C14.6867 5.76953 14.75 5.70625 14.75 5.62891V4.64453C14.75 4.56719 14.6867 4.50391 14.6094 4.50391H6.17188C6.09453 4.50391 6.03125 4.56719 6.03125 4.64453V5.62891C6.03125 5.70625 6.09453 5.76953 6.17188 5.76953ZM6.03125 9.35547C6.03125 9.43281 6.09453 9.49609 6.17188 9.49609H14.6094C14.6867 9.49609 14.75 9.43281 14.75 9.35547V8.37109C14.75 8.29375 14.6867 8.23047 14.6094 8.23047H6.17188C6.09453 8.23047 6.03125 8.29375 6.03125 8.37109V9.35547ZM14.8906 0.8125H1.10938C1.03203 0.8125 0.96875 0.875781 0.96875 0.953125V1.9375C0.96875 2.01484 1.03203 2.07812 1.10938 2.07812H14.8906C14.968 2.07812 15.0312 2.01484 15.0312 1.9375V0.953125C15.0312 0.875781 14.968 0.8125 14.8906 0.8125ZM14.8906 11.9219H1.10938C1.03203 11.9219 0.96875 11.9852 0.96875 12.0625V13.0469C0.96875 13.1242 1.03203 13.1875 1.10938 13.1875H14.8906C14.968 13.1875 15.0312 13.1242 15.0312 13.0469V12.0625C15.0312 11.9852 14.968 11.9219 14.8906 11.9219ZM1.02852 7.12129L3.77598 9.28516C3.87793 9.36602 4.0291 9.29395 4.0291 9.16387V4.83613C4.0291 4.70605 3.87969 4.63398 3.77598 4.71484L1.02852 6.87871C1.01004 6.89307 0.995092 6.91147 0.984809 6.93249C0.974526 6.95351 0.96918 6.9766 0.96918 7C0.96918 7.0234 0.974526 7.04649 0.984809 7.06751C0.995092 7.08853 1.01004 7.10693 1.02852 7.12129Z"
+              fill="white" />
+          </svg>
+
+        </button>
+
+                <ul class="navbar-nav navbar-nav-right">
+                    <div class="userNameZone">
+                        <div>
+                            <span class="welcomeUserTitle">Xin chào</span>
+                        </div>
+                        <div>
+                            <span class="userNameDisplay">Nam Tien Nguyen</span>
+                        </div>
+                    </div>
+                    <li class="nav-item nav-profile dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="profileDropdown">
+                            <img src="images/faces/face28.jpg" alt="profile" />
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right navbar-dropdown" aria-labelledby="profileDropdown">
+                            <a class="dropdown-item">
+                                <i class="ti-settings text-primary"></i> Settings
+                            </a>
+                            <a class="dropdown-item">
+                                <i class="ti-power-off text-primary"></i> Logout
+                            </a>
+                        </div>
+                    </li>
+
+                </ul>
+                <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button" data-toggle="offcanvas">
+          <svg width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M6.17188 5.76953H14.6094C14.6867 5.76953 14.75 5.70625 14.75 5.62891V4.64453C14.75 4.56719 14.6867 4.50391 14.6094 4.50391H6.17188C6.09453 4.50391 6.03125 4.56719 6.03125 4.64453V5.62891C6.03125 5.70625 6.09453 5.76953 6.17188 5.76953ZM6.03125 9.35547C6.03125 9.43281 6.09453 9.49609 6.17188 9.49609H14.6094C14.6867 9.49609 14.75 9.43281 14.75 9.35547V8.37109C14.75 8.29375 14.6867 8.23047 14.6094 8.23047H6.17188C6.09453 8.23047 6.03125 8.29375 6.03125 8.37109V9.35547ZM14.8906 0.8125H1.10938C1.03203 0.8125 0.96875 0.875781 0.96875 0.953125V1.9375C0.96875 2.01484 1.03203 2.07812 1.10938 2.07812H14.8906C14.968 2.07812 15.0312 2.01484 15.0312 1.9375V0.953125C15.0312 0.875781 14.968 0.8125 14.8906 0.8125ZM14.8906 11.9219H1.10938C1.03203 11.9219 0.96875 11.9852 0.96875 12.0625V13.0469C0.96875 13.1242 1.03203 13.1875 1.10938 13.1875H14.8906C14.968 13.1875 15.0312 13.1242 15.0312 13.0469V12.0625C15.0312 11.9852 14.968 11.9219 14.8906 11.9219ZM1.02852 7.12129L3.77598 9.28516C3.87793 9.36602 4.0291 9.29395 4.0291 9.16387V4.83613C4.0291 4.70605 3.87969 4.63398 3.77598 4.71484L1.02852 6.87871C1.01004 6.89307 0.995092 6.91147 0.984809 6.93249C0.974526 6.95351 0.96918 6.9766 0.96918 7C0.96918 7.0234 0.974526 7.04649 0.984809 7.06751C0.995092 7.08853 1.01004 7.10693 1.02852 7.12129Z"
+              fill="white" />
+          </svg>
+
+        </button>
+            </div>
+        </nav>
+        <!-- Container -->
+        <div class="container-fluid page-body-wrapper">
+            <nav class="sidebar sidebar-offcanvas" id="sidebar">
+                <div class="side">
+                    <ul class="nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">
+                                <i><img src="images/2.png" alt=""> </i>
+                                <span class="menu-title"> Đặt phòng họp</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="ListUser.html">
+                                <i><img src="images/1.png" alt=""></i>
+                                <span class="menu-title">Quản lý người dùng</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pages/documentation/documentation.html">
+                                <i><img src="images/3.png" alt=""></i>
+                                <span class="menu-title">Quản lý phòng họp</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pages/documentation/documentation.html">
+                                <i><img src="images/4.png" alt=""></i>
+                                <span class="menu-title">Lịch họp của tôi</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <!-- partial -->
+            <!-- main-panel ends -->
+        </div>
+        <!-- page-body-wrapper ends -->
+    </div>
+    <script src="vendors/js/vendor.bundle.base.js"></script>
+    <!-- endinject -->
+    <!-- Plugin js for this page -->
+    <script src="vendors/chart.js/Chart.min.js"></script>
+    <script src="vendors/datatables.net/jquery.dataTables.js"></script>
+    <script src="vendors/datatables.net-bs4/dataTables.bootstrap4.js"></script>
+
+
+    <!-- End plugin js for this page -->
+    <!-- inject:js -->
+    <script src="js/off-canvas.js"></script>
+    <script src="js/template.js"></script>
+    <!-- endinject -->
+    <!-- Custom js for this page-->
+    <script src="js/dashboard.js"></script>
+    <!-- End custom js for this page-->
+</body>
+
+</html>

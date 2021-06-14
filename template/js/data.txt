@@ -1,0 +1,77 @@
+{
+  "data": [
+    {
+      "Id": "1",
+      "Img": "11",
+      "User": "1.png",
+      "Department": "Viettel",
+      "Email": "NamHN@ttc-solutions.com",
+      "Phone": "03965204444",
+      "Role": "Admin",
+      "Updated": "25/04/2020"
+    },{
+      "Id": "2",
+       "Img": "1png",
+      "User": "Hoàng Nhất Nam ",
+      "Department": "Viettel",
+      "Email": "NamHN@ttc-solutions.com",
+      "Phone": "03965204444",
+      "Role": "Admin",
+      "Updated": "25/04/2020"
+    },{
+      "Id": "3",
+       "Img": "1png",
+      "User": "Hoàng Nhất Nam ",
+      "Department": "Viettel",
+      "Email": "NamHN@ttc-solutions.com",
+      "Phone": "03965204444",
+      "Role": "Admin",
+      "Updated": "25/04/2020"
+    },{
+      "Id": "4",
+       "Img": "1png",
+     "User": "Hoàng Nhất Nam ",
+      "Department": "Viettel",
+      "Email": "NamHN@ttc-solutions.com",
+      "Phone": "03965204444",
+      "Role": "Admin",
+      "Updated": "25/04/2020"
+    },{
+      "Id": "5",
+       "Img": "1png",
+    "User": "Hoàng Nhất Nam ",
+      "Department": "Viettel",
+      "Email": "NamHN@ttc-solutions.com",
+      "Phone": "03965204444",
+      "Role": "Admin",
+      "Updated": "25/04/2020"
+    },{
+      "Id": "6",
+       "Img": "1png",
+      "User": "Hoàng Nhất Nam ",
+      "Department": "Viettel",
+      "Email": "NamHN@ttc-solutions.com",
+      "Phone": "03965204444",
+      "Role": "Admin",
+      "Updated": "25/04/2020"
+    },{
+      "Id": "7",
+       "Img": "1png",
+      "User": "Hoàng Nhất Nam ",
+      "Department": "Viettel",
+      "Email": "NamHN@ttc-solutions.com",
+      "Phone": "03965204444",
+      "Role": "Admin",
+      "Updated": "25/04/2020"
+    },{
+      "Id": "8",
+       "Img": "1png",
+      "User": "Hoàng Nhất Nam ",
+      "Department": "Viettel",
+      "Email": "NamHN@ttc-solutions.com",
+      "Phone": "03965204444",
+      "Role": "Admin",
+      "Updated": "25/04/2020"
+    }
+  ]
+}
